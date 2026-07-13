@@ -13,4 +13,9 @@ public class StudentController {
     {
         return " Welcome to StudentAPI in Spring Boot !";
     }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello CI/CD";
+    }
 }
